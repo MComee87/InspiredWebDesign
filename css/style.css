@@ -5,6 +5,7 @@ body {
 }
 
 .el_box {
+        border: 3 solid #000;
 	border-color: #000;
 	border-width: 3px;
 }
