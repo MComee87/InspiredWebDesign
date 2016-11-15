@@ -4,6 +4,11 @@ body {
 	font-weight: 300;
 }
 
+.el_box {
+	border-color: #000;
+	border-width: 3px;
+}
+
 .text-muted {
 	color: #bcbbbb;
 }
