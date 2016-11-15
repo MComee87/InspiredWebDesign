@@ -4,6 +4,16 @@ body {
 	font-weight: 300;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
+}
+
 .el_box {
 	border: 3px solid black;
 	padding: 10px;
