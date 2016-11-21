@@ -9,10 +9,6 @@ body {
   margin: 0;
 }
 
-.catagories {
-  background-color: #eee;
-}
-
 canvas {
   background: #eee;
   display: block;
