@@ -1,0 +1,112 @@
+<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inspired Web Design Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/jquery-3.1.1.slim.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    
+    <script src="jquery-1.4.1.min.js"></script>
+    <script src="vector_battle_regular.typeface.js"></script>
+    <script src="ipad.js"></script>
+    <script src="game.js"></script>
+    <style>
+      #canvas { border:1px solid black; top:0px; left:0px; }
+      .button { position:absolute; border:1px solid black; }
+      #left-controls { position:absolute; left:1px; bottom:0px; display:none; }
+      #right-controls { position:absolute; right:1px; bottom:0px; display:none; }
+      #up { width:200px; height:100px; bottom:100px;}
+      #left { width:100px; height:100px; bottom:0px;}
+      #right { width:100px; height:100px; bottom:0px; left:100px; }
+      #space { width:200px; height:200px; bottom:0px; right:0px; }
+      canvas { margin-right:auto; margin-left:auto; }
+    </style>
+  </head>
+ 
+  <body>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive title-logo" src="../images/logo.png" alt="Inspired Web Design logo">
+        </div>
+        <header class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">Inspired Web Design</h1>
+          <h3>Matthew Comee</h3>
+        </header>
+      </div>
+      <section class="text-center">
+      <div class="row">
+        <div class="col-md-12">
+        <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h2><a href="http://www.inspiredwebdesign.net">Home</a></h2>
+        </div>
+        <div class="col-md-3">
+          <h2><a href="http://www.inspiredwebdesign.net/contact">Contact</a></h2>
+        </div>
+        <div class="col-md-3">
+          <h2><a href="http://www.inspiredwebdesign.net/elements">Elements</a></h2>
+        </div>
+        <div class="col-md-3">
+         <h2><a href="http://comeeresume.netlify.com">Resume</a></h2>
+        </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive white-space" src="../images/github_main.png" data-toggle="modal" data-target="#project1" alt="photo of github cli, click to view Inspired Web Designs github profile.">
+        </div>
+      </div>
+
+      <div class="row">
+      <div class="col-md-12">
+        <h2 class="catagories">Astroids</h2>
+      </div>
+      </div>
+
+    <div id="game-container">
+      <canvas id="canvas" width="780" height="540"></canvas>
+      <div id="left-controls">
+        <div id="up" class='button'>THRUST</div>
+        <div id="left" class='button'>LEFT</div>
+        <div id="right" class='button'>RIGHT</div>
+      </div>
+      <div id="right-controls">
+        <div id="space" class='button'>FIRE</div>
+      </div>
+    </div>
+ 
+      </section>
+      <footer class="row">
+        <div class="col-md-12">
+          <h4 class="text-muted footer">Inspired Web Design 2016</h4>
+        </div>
+    </footer>
+    </div>
+
+     <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Inspired Web Design</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://developer.github.com/assets/images/hero-circuit-bg.svg">
+                    <p>View the source code behind<a href="https://github.com/MComee87"> Inspired Web Design</a> and affiliated works</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
